@@ -12,5 +12,10 @@ public class CuentaCorriente {
         saldo = saldo + cantidad;
     }
 
+    @Override
+    public String toString(){
+        return STR."\{numCuenta} | \{nombreTitular} | \{saldo}";
+    }
+
 
 }
