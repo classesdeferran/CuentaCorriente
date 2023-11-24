@@ -4,7 +4,7 @@ public class CuentaCorriente {
     double saldo;
     String numCuenta;
 
-    public CuentaCorriente (String nombreTitular,double saldo, String numCuenta ){
+    public CuentaCorriente (String nombreTitular, double saldo, String numCuenta ){
         this.nombreTitular = nombreTitular;
         this.saldo = saldo;
         this.numCuenta = numCuenta;
